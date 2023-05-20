@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body , html{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #cfcfcf;
+    width: 100%;
+}
+/* --------------navation--------- */
+.navacation{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(81, 67, 213);
+    margin-top: 0;
+   
+   }
+
+.nav{
+    float: right;
+    font-size: large;
+    
+}
+.navs{
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.navs li{
+    float: left;
+    padding: 20px;
+   
+}
+.navs a{
+    text-decoration: none;
+    color: azure;
+}
+/* -------------main----------- */
+.main{
+    width: 100%;
+    height: 1000px;
+}
+.row1{
+    width: 100%;
+    height: 150px;
+    background-image: url(OIP.jpg); 
+
+}
+
+.h2{
+   
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20p;
+
+}
+.row2{
+    height: 850px;
+    width: 70%;
+   
+   
+
+}
+h3{
+    color: rgb(211, 45, 45);
+}
+.row2-row1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 25px;
+    
+
+
+}
+.col1{
+    text-align: justify;
+    margin-left: 20px;
+}
+.col2{
+    text-align: justify;
+}
+.row2-row2{
+    width: 100%;
+    height: 200px;
+    margin-left: 250px;
+}
+
+.row2-row2 img{
+    width: 200px;
+    height: 300px;
+
+}
+.sri{
+    float: left;
+    margin-right: 10px;
+   text-align: justify;
+
+
+}
+.krishina{
+    text-align: justify;
+}
+.row2-row2 p{
+    text-align: justify;
+}

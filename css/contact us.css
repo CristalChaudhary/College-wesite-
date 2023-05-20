@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body html{
+    font-family: Roboto,sans-serif,Arial;
+}
+/* --------------nav-------------- */
+
+.navacation{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(81, 67, 213);
+   
+   }
+
+.nav{
+    float: right;
+    font-size: large;
+    
+}
+.navs{
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.navs li{
+    float: left;
+    padding: 20px;
+   
+}
+.navs a{
+    text-decoration: none;
+    color: azure;
+}
+
+/* -------------contact us--------- */
+#contact-us {
+    height:800px ;
+    background-image:url(bulding.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.contact{
+    width: 1350px;
+    height: 700px;
+    justify-content: center;
+   
+
+   
+
+
+}
+
+.contact-row1{
+    width: 1350px;
+    height: 70px;
+    text-align: center;
+    margin-left: 500px;
+    
+    
+
+
+
+}
+/* --------------contact of Message----- */
+
+
+
+
+.contact-h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+.contact-row2{
+    width: 1350px;
+    height:600px ;
+    margin-left: 100px;
+    
+
+
+}
+
+/* ----------------send sms-------------- */
+
+.contact-row2-col1{
+    width: 850px;
+    height: 600px;
+    float: left;
+    background-color: rgb(60, 161, 239);
+    border: 1px solid black;
+    
+
+
+}
+.contact-row2-col1-row1{
+    width:850px ;
+    height: 100px;
+    
+    
+   
+}
+.contact-row2-col1-row1-col1{
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.contact-row2-col1-row1-col1 label{
+    font-size: 20px;
+}
+
+
+.input-1{
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 4px solid white;
+    padding: 10px;
+    
+
+}
+.textarea{
+    width:850px ;
+    height: 250px;
+    margin-left: 10px;
+
+
+}
+.textarea-row{
+    width: 750px;
+    border:30px;
+    border-radius: 4px sloid white ;
+    padding: 10px;
+    
+}
+
+.textarea label{
+    font-size: 20px;
+}
+.button{
+    width: 850px;
+    height: 200px;
+    display: flex;
+   justify-content: center;
+
+
+}
+.button-1{
+
+    width: 100px;
+    height: 60px;
+    border: 2px;
+    border-radius: 5px;
+
+
+}
+.button-1:hover{
+    color: aqua;
+    background-color: #232f3e;
+}
+
+
+
+
+/* ------------------ info detail -------- */
+.contact-row2-col2{
+    width: 450px;
+    height: 600px;
+    float: left;
+    border: 1px solid black;
+    padding-left: 5px;
+
+
+
+}
+.contact-row2-col2-row1{
+    width:450px ;
+    height: 350px;
+    background-color: rgb(35, 103, 198);
+   
+
+
+
+
+}
+.footer{
+    background: #232f3e;
+    padding: 50px 0px;
+
+
+}
+.quicklink-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+
+}
+.get-in-touch li a{
+    list-style: none;
+    padding-left: 10px;
+    color: #fff;
+   
+    font-size: 20px;
+    text-decoration: none;
+
+
+
+}
+
+.get-in-touch{
+    list-style: none;
+    padding-left: 20px;
+
+}
+.get-in-touch li i{
+    color: #ed372c;
+    font-size: 20px;
+
+}
+.get-in-touch li{
+    color: #fff;
+    line-height: 2;
+    font-size: 20px;
+
+
+}
+.footer-email{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-website{
+    font-size: 20px;
+    font-family: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.social-media{
+    list-style: none;
+    margin-top: 10px;
+}
+.social-media li{
+    float: left;
+    padding: 0px 8px;
+
+}
+.social-media li a img{
+    width: 35px;
+}
+.footer2-bacbor{
+    background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+.footer2-content{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ------------map------------------ */
+
+.contact-row2-col2-row2{
+
+    width:450px ;
+    height: 250px;
+    border: 2px solid black;
+   
+
+}

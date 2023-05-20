@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body , html{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #cfcfcf;
+    width: 100%;
+}
+
+/* navacation --------------- */
+
+
+.navacation {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(81, 67, 213);
+    margin-top: 0;
+
+}
+
+.nav {
+    float: right;
+    font-size: large;
+
+}
+
+.navs {
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.navs li {
+    float: left;
+    padding: 20px;
+
+}
+
+.navs a {
+    text-decoration: none;
+    color: azure;
+}
+
+/* --------------gallary-------- */
+.gallary {
+    width: 1500px;
+    margin-top: 10px;
+
+}
+
+.row1 {
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+    transition: 0.3s;
+    border: 4px solid black;
+    
+   
+
+
+
+}
+
+.call:hover {
+   
+    border-color:blue;
+}
+@media screen and (max-width: 500px) {
+    .row1{
+        width: auto;
+       
+    }
+    
+}
